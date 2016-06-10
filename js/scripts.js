@@ -1,10 +1,12 @@
 $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
+    $("ul#pingpongresult li").remove();
     var numberInput = parseInt($("input#numberinput").val());
     var pingPongOutput = numberToPingPong(numberInput);
-    console.log(pingPongOutput)
-    $("#pingpongresult").append("<li>"+pingPongOutput+"</li>");
+    for(i=0; i<pingPongOutput.length; i++){
+      $("#pingpongresult").append("<li>"+pingPongOutput[i]+"</li>");
+    }
   });
 });
 
@@ -21,5 +23,5 @@ var numberToPingPong = function(num) {
       outputNum.push(i)
     }
   }
-  return outputNum
+  return outputNum;
 }
