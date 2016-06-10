@@ -11,7 +11,11 @@ $(document).ready(function() {
 var numberToPingPong = function(num) {
   var outputNum=[];
   for(i=1; i<=num; i++){
-    outputNum.push(i);
+    if(i%3===0){
+      outputNum.push("ping");
+    } else {
+      outputNum.push(i)
+    }
   }
   return outputNum
 }
