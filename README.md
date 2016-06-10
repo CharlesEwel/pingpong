@@ -10,10 +10,12 @@
 
 This convertor allows users to enter a  positive integer number and returns a list that counts up to that number, replacing some of the letters along the way with words.
 
-* _Count up to number with no word replacements_
-* _Replace factors of 3 with 'ping'_
-* _Replace all factors of 5 with 'pong'_
-* _Replace all factors of 15 with 'pingpong'_
+|Specification                                  |Example Input|Example Output|
+|-----------------------------------------------|-------------|--------------|
+|Count up to number with no word replacements|7|1,2,3,4,5,6,7|
+|Replace factors of 3 with 'ping'|7|1,2,ping,4,5,ping,7|
+| Replace all factors of 5 with 'pong'|7|1,2,ping,4,pong,ping,7|
+|Replace all factors of 15 with 'pingpong'|15|1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong|
 
 ## Setup/Installation Requirements
 
