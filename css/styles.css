@@ -16,7 +16,7 @@ h1 {
     /*float: left;
     width: 25%;*/
     padding-top: 10px;
-    padding-bottom: 100%;
+    padding-bottom: 40%;
     /*margin-bottom: -100%;*/
     font-size: 50%;
     font-weight: bold;
@@ -44,6 +44,11 @@ h1 {
   padding-top: 10px;
   padding-left: 25px;
 }
+
+.content h4 {
+  font-weight: bold;
+}
+
 ul#pingpongresult li {
   font-size: 90%;
 }
