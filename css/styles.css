@@ -1,0 +1,27 @@
+body {
+  background-color: lightgrey;
+}
+/*light brown:f4e2be*/
+h1 {
+  background-color: wheat;
+  text-align: center;
+  padding:40px;
+  margin-top: 0px;
+}
+
+.green{
+    background-color: darkseagreen;
+    margin-bottom: auto;
+}
+
+.green h3 {
+  margin-left: 10px;
+}
+.green h4 {
+  color: wheat;
+  margin-left: 10px;
+}
+.green p {
+  color: white;
+  margin-left: 10px;
+}
