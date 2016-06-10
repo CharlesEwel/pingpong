@@ -5,23 +5,54 @@ body {
 h1 {
   background-color: wheat;
   text-align: center;
-  padding:40px;
+  padding:35px;
   margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 300%;
 }
 
-.green{
+.green {
     background-color: darkseagreen;
-    margin-bottom: auto;
+    /*float: left;
+    width: 25%;*/
+    padding-top: 10px;
+    padding-bottom: 100%;
+    /*margin-bottom: -100%;*/
+    font-size: 50%;
+    font-weight: bold;
 }
 
-.green h3 {
-  margin-left: 10px;
-}
 .green h4 {
+  font-size: 225%;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.green h6 {
+  margin: 5px;
   color: wheat;
   margin-left: 10px;
 }
 .green p {
+  font-size: 120%;
   color: white;
+  margin: 7px;
   margin-left: 10px;
+}
+.content {
+  font-size: 70%;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+ul#pingpongresult li {
+  font-size: 90%;
+}
+
+.btn {
+  padding: 5px;
+  font-size: 100%;
+}
+
+.form-group {
+  margin: 0px;
 }
