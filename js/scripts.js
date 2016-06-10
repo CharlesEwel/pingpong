@@ -11,7 +11,9 @@ $(document).ready(function() {
 var numberToPingPong = function(num) {
   var outputNum=[];
   for(i=1; i<=num; i++){
-    if(i%3===0){
+    if(i%15===0){
+      outputNum.push("pingpong");
+    } else if(i%3===0){
       outputNum.push("ping");
     } else if(i%5===0){
       outputNum.push("pong");
